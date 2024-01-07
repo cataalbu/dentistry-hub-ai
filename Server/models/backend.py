@@ -41,4 +41,4 @@ def do_prediction():
     return {'id': prediction_id, 'prediction': prediction.flatten().tolist()}
 
 if __name__ == '__main__':
-    run(host='localhost', port=8080)
+    run(host='0.0.0.0', port=8080)
